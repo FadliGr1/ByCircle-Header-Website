@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #1d1e3c;
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #282b64;
+}
